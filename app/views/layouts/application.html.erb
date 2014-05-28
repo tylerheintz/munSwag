@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WalkerMUN</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%=link_to :root do%>
+	<img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/p160x160/320194_399020606819621_800026369_n.jpg" style="width:10em;height:10em">
+<%end%>
+
+
+<%= yield %>
+
+</body>
+</html>
